@@ -1,0 +1,18 @@
+#cardAutorComponent{
+    text-align: center;
+    margin: 15px auto;
+    padding: 10px;
+}
+
+#cardAutorComponent img{
+    height: 200px;
+    width: 200px;
+}
+
+#cardAutorComponent a{
+    color:aliceblue;
+}
+
+#cardAutorComponent a:hover{
+    opacity: 80%;
+}

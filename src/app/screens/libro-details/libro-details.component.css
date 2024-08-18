@@ -1,0 +1,7 @@
+#libro-details-container{
+    margin: 10px auto;
+    padding: 143px 10px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 20% 70%;
+}

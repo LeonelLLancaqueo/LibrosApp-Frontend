@@ -1,0 +1,7 @@
+<section id="cardAutorComponent">
+    <img src={{cardAutor.urlImage}} alt="Exterior photo of {{cardAutor.nombre}}">
+    <h3>{{cardAutor.nombre}}</h3>
+    <p>{{cardAutor.nacionalidad}}</p>
+    <p>{{cardAutor.descripcion}}</p>
+    <a [routerLink]="['/libros/porAutor', cardAutor.idAutor]">Learn More </a>
+</section>

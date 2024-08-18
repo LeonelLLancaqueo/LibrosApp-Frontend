@@ -1,0 +1,8 @@
+#grid-libros{
+    
+    width: 80%;
+    margin: 150px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+}

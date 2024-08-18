@@ -1,0 +1,33 @@
+#banner {
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid aliceblue;
+}
+#banner-content{
+    text-align: center;
+    color: aliceblue;
+    margin: auto;
+    padding: 340px;
+    
+}
+#banner-content h2{ 
+    font-size: xx-large;
+}
+
+#card-autor-grid{
+    
+    width: 80%;
+    margin: 200px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+}
+#home-conteiner {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+#home-conteiner section{
+    scroll-snap-align: center;
+}

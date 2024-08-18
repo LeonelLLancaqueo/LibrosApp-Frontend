@@ -1,0 +1,13 @@
+
+
+<section id="libro-details-container">
+    @if(libro){
+        <img src={{libro.url}} alt="imagen de {{libro.nombre}}" crossorigin >
+        <section id="libro-details-data">
+            <h2>{{libro.nombre}}</h2>
+            <p>{{libro.descripcion}}</p>
+            <p>Precio: ${{libro.precio}}</p>
+        </section>
+    }
+    
+</section>

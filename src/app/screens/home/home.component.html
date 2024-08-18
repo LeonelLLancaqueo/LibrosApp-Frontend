@@ -1,0 +1,15 @@
+<div id="home-conteiner">
+    <section id="banner">
+        <div id="banner-content">
+            <h2>Libreria</h2>
+            <p>by leonel llancaqueo</p>
+        </div>
+    </section>
+    
+    <section id="card-autor-grid">
+        <app-card-autor
+            *ngFor="let card of listCardAutor"
+            [cardAutor]="card"
+        />    
+    </section>
+</div>

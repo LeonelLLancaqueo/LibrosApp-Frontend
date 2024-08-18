@@ -1,0 +1,17 @@
+#cardLibroComponent{
+    text-align: center;
+}
+#cardLibroComponent *{
+    margin: 5px auto;
+}
+#cardLibroComponent:hover{
+    opacity: 80%;
+}
+
+#cardLibroComponent a{
+    color:aliceblue;
+}
+
+
+
+

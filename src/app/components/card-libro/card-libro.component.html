@@ -1,0 +1,7 @@
+
+<section id="cardLibroComponent">
+    <img src={{libro.url}} alt="Exterior photo of {{libro.nombre}}">
+    <h3>{{libro.nombre}}</h3>
+    <p>Precio: ${{libro.precio}}</p>
+    <a [routerLink]="['/libros/detail/', libro.idLibro]">Ver Libro</a>
+</section>
